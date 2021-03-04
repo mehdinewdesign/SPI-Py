@@ -1,7 +1,7 @@
 import spi
 
 def main():
-    # Open file descriptor for 
+    # Open file desسسسسسcriptor for 
     # spi device 0 using the CE0 pin for chip select
     device_0 =  spi.openSPI(device="/dev/spidev0.0",
                             mode=0,
